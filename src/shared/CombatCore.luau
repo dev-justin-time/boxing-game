@@ -293,7 +293,7 @@ index 0000000..5e5e125
 +	state.guardBrokenUntil = 0
 +end
 +
-+function CombatCore.healthFraction(state: FighterState): number
++function CombatCore.resolveHit(state: FighterState, attack: string, now: number, blocking: boolean): AttackOutcome
 +	return if state.maxHealth > 0 then state.health / state.maxHealth else 0
 +end
 +
