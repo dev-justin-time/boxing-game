@@ -1,0 +1,1 @@
+Luau analyzer, Rojo, and Lune are ready. I'll build the game as a Rojo project, with combat rules kept in pure Luau so I can test them outside Roblox.

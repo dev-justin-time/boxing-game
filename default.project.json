@@ -1,0 +1,68 @@
+diff --git a/default.project.json b/default.project.json
+new file mode 100644
+index 0000000..f5633e9
+--- /dev/null
++++ b/default.project.json
+@@ -0,0 +1,62 @@
++{
++  "name": "KnockoutRing",
++  "tree": {
++    "$className": "DataModel",
++    "ReplicatedStorage": {
++      "Shared": {
++        "$path": "src/shared"
++      }
++    },
++    "ServerScriptService": {
++      "Server": {
++        "$path": "src/server"
++      }
++    },
++    "StarterPlayer": {
++      "$properties": {
++        "CameraMode": "Classic",
++        "CharacterWalkSpeed": 16,
++        "EnableMouseLockOption": true
++      },
++      "StarterPlayerScripts": {
++        "Client": {
++          "$path": "src/client"
++        }
++      }
++    },
++    "Workspace": {
++      "$properties": {
++        "FilteringEnabled": true,
++        "Gravity": 196.2
++      }
++    },
++    "Lighting": {
++      "$properties": {
++        "Technology": "Future",
++        "Ambient": [0.07, 0.06, 0.07],
++        "OutdoorAmbient": [0.05, 0.05, 0.07],
++        "ClockTime": 19.5,
++        "Brightness": 1.4,
++        "GlobalShadows": true,
++        "EnvironmentDiffuseScale": 0.4,
++        "EnvironmentSpecularScale": 0.6
++      }
++    },
++    "Players": {
++      "$properties": {
++        "CharacterAutoLoads": true
++      }
++    },
++    "StarterGui": {
++      "$properties": {
++        "ScreenOrientation": "LandscapeSensor",
++        "ResetPlayerGuiOnSpawn": true
++      }
++    },
++    "SoundService": {
++      "$properties": {
++        "RespectFilteringEnabled": true
++      }
++    }
++  }
++}
